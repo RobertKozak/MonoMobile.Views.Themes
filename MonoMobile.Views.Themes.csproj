@@ -10,6 +10,8 @@
     <OutputType>Library</OutputType>
     <RootNamespace>MonoMobile.Views.Themes</RootNamespace>
     <AssemblyName>MonoMobile.Views.Themes</AssemblyName>
+    <ReleaseVersion>1.0</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,6 +50,20 @@
     <Compile Include="PlainTheme.cs" />
     <Compile Include="SepiaCloudTheme.cs" />
     <Compile Include="BlueButtonTheme.cs" />
+    <Compile Include="AutumnTheme.cs" />
+    <Compile Include="BrickedTheme.cs" />
+    <Compile Include="CorkTheme.cs" />
+    <Compile Include="DarkHeaderTheme.cs" />
+    <Compile Include="DenimTheme.cs" />
+    <Compile Include="FrostedTheme.cs" />
+    <Compile Include="GraniteTheme.cs" />
+    <Compile Include="MarbledTheme.cs" />
+    <Compile Include="MetallicTheme.cs" />
+    <Compile Include="NavbarTheme.cs" />
+    <Compile Include="PaperTheme.cs" />
+    <Compile Include="SkywardTheme.cs" />
+    <Compile Include="SmokeyTheme.cs" />
+    <Compile Include="WoodenTheme.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />
@@ -55,6 +71,26 @@
   <ItemGroup>
     <Content Include="Images\SepiaClouds.png" />
     <Content Include="Images\SepiaClouds%402x.png" />
+    <Content Include="Images\background.png" />
+    <Content Include="Images\cork.png" />
+    <Content Include="Images\marble.png" />
+    <Content Include="Images\Sample.png" />
+    <Content Include="Images\Aquablue.jpg" />
+    <Content Include="Images\bluecurtain.jpg" />
+    <Content Include="Images\bluemac.jpg" />
+    <Content Include="Images\bluesky.jpg" />
+    <Content Include="Images\bluewallpaper.jpg" />
+    <Content Include="Images\brick.jpg" />
+    <Content Include="Images\concrete.jpg" />
+    <Content Include="Images\dark metal.jpg" />
+    <Content Include="Images\granite.jpg" />
+    <Content Include="Images\honeycomb.jpg" />
+    <Content Include="Images\leather.jpg" />
+    <Content Include="Images\leaves.jpg" />
+    <Content Include="Images\metal.jpg" />
+    <Content Include="Images\paper.jpg" />
+    <Content Include="Images\wood.jpg" />
+    <Content Include="Images\worntexture.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\SepiaCloudsiPad.png" />
